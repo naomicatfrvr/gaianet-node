@@ -286,6 +286,28 @@ if [ -d "$gaianet_base_dir" ]; then
 
             cp $gaianet_base_dir/config.json $gaianet_base_dir/backup/
 
+     
+        # 0: do not reinstall, 1: reinstall
+reinstall=0
+# 0: do not upgrade, 1: upgrade
+upgrade=0
+# file path to be backed up
+backup_to_file=""
+# file path to be migrated from
+migrated_from_file=""
+# 0: must be root or sudo, 1: regular unprivileged user
+unprivileged=0
+# url to the config file
+config_url=""
+# path to the gaianet base directory
+gaianet_base_dir="$HOME/gaianet"
+# tmp directory
+tmp_dir="$gaianet_base_dir/tmp"
+tmp_dir_updated=0
+# specific CUDA enabled GGML plugin
+ggmlcuda=""
+# 0: disable vector, 1: enable vector
+        
         else
             error "Failed to copy the config.json. Reason: the config.json does not exist in $gaianet_base_dir."
             exit 1
