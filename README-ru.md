@@ -14,9 +14,19 @@
 
 [Japanese(日本語)](README-ja.md) | [Chinese(中文)](README-cn.md) | [Turkish (Türkçe)](README-tr.md) | [Arabic (العربية)](README-ar.md) | [Russian (русскийة)](README-ru.md) | Нам нужна ваша помощь, чтобы перевести этот README на ваш родной язык.
 
-Нравится наша работа? ⭐ Поставьте нам звезду!
+Нравится наша работа? ⭐ Поставьте нам звезду!!!
 
 ---
+<p align="center">
+  <a href="https://discord.gg/gaianet-ai">
+    <img src="https://img.shields.io/badge/chat-Discord-7289DA?logo=discord" alt="GaiaNet Discord">
+  </a>
+  <a href="https://twitter.com/Gaianet_AI">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&amp;logoColor=white" alt="GaiaNet Twitter">
+  </a>
+   <a href="https://www.gaianet.ai/">
+    <img src="https://img.shields.io/website?up_message=Website&url=https://www.gaianet.ai/" alt="Gaianet website">
+  </a>
 
 ## Быстрый старт
 
